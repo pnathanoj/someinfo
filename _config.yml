@@ -6,3 +6,28 @@ url: https://pnathanoj.github.io/someinfo
 
 aux_links: # remove if you don't want this link to appear on your pages
   Template Repository: https://github.com/pnathanoj/someinfo
+
+
+# Define Jekyll collections
+collections:
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  NTNU2025:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    NTNU2025:
+      # Give the collection a name
+      name: NTNU
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      # nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true
