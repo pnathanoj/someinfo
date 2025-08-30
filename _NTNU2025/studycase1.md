@@ -1,5 +1,6 @@
 ---
 title: Study Case 1
+parent: Introduction to GEE
 layout: home
 ---
 
