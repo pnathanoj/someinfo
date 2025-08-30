@@ -1,5 +1,5 @@
 ---
-title: Intro
+title: Introduction
 layout: home
 ---
 
