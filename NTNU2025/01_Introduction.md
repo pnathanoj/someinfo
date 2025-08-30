@@ -1,5 +1,5 @@
 ---
-title: NTNUintroduction
+title: Introduction to GEE
 layout: home
 ---
 
