@@ -1,6 +1,7 @@
 ---
 title: Case Studies
 layout: home
+nav_order: 2
 ---
 
 # Three case studies
