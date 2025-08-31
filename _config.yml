@@ -7,10 +7,6 @@ url: https://pnathanoj.github.io/someinfo
 aux_links: # remove if you don't want this link to appear on your pages
   Template Repository: https://github.com/pnathanoj/someinfo
 
-callouts:
-  note:
-    title: Note
-    color: blue
 
 
 # Define Jekyll collections
@@ -36,3 +32,8 @@ just_the_docs:
       # Exclude the collection from the search
       # Supports true or false (default)
       # search_exclude: true
+
+callouts:
+  note:
+    title: note
+    color: blue
