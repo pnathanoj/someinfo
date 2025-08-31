@@ -129,7 +129,7 @@ The distribution model ``classifier`` is then applied to the ``allData`` Image (
 ```js
 var imageClassified = allData.classify(classifier);
 
-print(imageClassified, ‘Classified’);
+print(imageClassified, 'Classified');
 ```
 
 Finally, it is possible to visualize the distribution probability:
