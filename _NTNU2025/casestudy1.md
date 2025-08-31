@@ -15,7 +15,7 @@ Explain here
 
 ### Kang et al. (2025) study
 
-Explain here
+Explain here 
 
 ## Mapping low temperatures in GEE
 
