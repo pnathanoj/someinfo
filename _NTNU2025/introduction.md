@@ -25,7 +25,7 @@ Kang, Y., Kaplan, D. A., & Osland, M. J. (2025). Mangrove freeze resistance and 
  
 *Case Study 2*
 
-Elith, J., Graham, C., Valavi, R., Abegg, M., Bruce, C., Ferrier, S., Ford, A. et al. (2020). Presence-Only and Presence-Absence Data for Comparing Species Distribution Modeling Methods. Biodiversity Informatics 15. [https://doi.org/10.17161/bi.v15i2.13384](https://doi.org/10.17161/bi.v15i2.13384)
+Elith, J., Graham, C., Valavi, R., Abegg, M., Bruce, C., Ferrier, S., Ford, A. et al. (2020). Presence-Only and Presence-Absence Data for Comparing Species Distribution Modeling Methods. Biodiversity Informatics, 15. [https://doi.org/10.17161/bi.v15i2.13384](https://doi.org/10.17161/bi.v15i2.13384)
 
 Dataset: [https://osf.io/kwc4v/files/osfstorage](https://osf.io/kwc4v/files/osfstorage)
 
