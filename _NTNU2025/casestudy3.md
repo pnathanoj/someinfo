@@ -1,6 +1,6 @@
 ---
 title: 3 Supervised land cover classification
-parent: Study Cases
+parent: Case Studies
 layout: home
 nav_order: 3
 ---
