@@ -1,6 +1,7 @@
 ---
 title: Introduction to GEE
 layout: home
+nav_order: 1
 ---
 
 # Introduction to Google Earth Engine
