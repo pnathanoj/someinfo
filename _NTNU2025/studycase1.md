@@ -1,5 +1,5 @@
 ---
-title: Study Case 1
+title: 1 Coldwave and mangroves
 parent: Study Cases
 layout: home
 nav_order: 1
