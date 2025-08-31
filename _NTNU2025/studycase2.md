@@ -1,5 +1,5 @@
 ---
-title: Study Case 2
+title: 2 Species distribution model
 parent: Study Cases
 layout: home
 nav_order: 2
