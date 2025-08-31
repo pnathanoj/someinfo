@@ -35,7 +35,7 @@ just_the_docs:
 
 callouts:
   links:
-    title: important links
+    title: open the following links
     color: red
   note:
     title: note
