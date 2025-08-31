@@ -7,6 +7,11 @@ url: https://pnathanoj.github.io/someinfo
 aux_links: # remove if you don't want this link to appear on your pages
   Template Repository: https://github.com/pnathanoj/someinfo
 
+callouts:
+  note:
+    title: Note
+    color: blue
+
 
 # Define Jekyll collections
 collections:
