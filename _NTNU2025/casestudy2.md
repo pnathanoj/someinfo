@@ -1,6 +1,6 @@
 ---
 title: 2 Species distribution model
-parent: Study Cases
+parent: Case Studies
 layout: home
 nav_order: 2
 ---
