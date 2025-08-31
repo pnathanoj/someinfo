@@ -11,6 +11,14 @@ This half-day lecture is partly based on the week-long introduction to GEE deliv
 
 ### Important links
 
+{: .links }
+> Code Editor: [https://code.earthengine.google.com/](https://code.earthengine.google.com/)
+> 
+> GEE Data Catalog: [developers.google.com/earth-engine/datasets/catalog](https://developers.google.com/earth-engine/datasets/catalog)
+> 
+> API Docs: [https://developers.google.com/earth-engine/apidocs/ee-image](https://developers.google.com/earth-engine/apidocs/ee-image)
+
+
 - Code Editor: [https://code.earthengine.google.com/](https://code.earthengine.google.com/)
 - GEE Data Catalog: [developers.google.com/earth-engine/datasets/catalog](https://developers.google.com/earth-engine/datasets/catalog)
 - API Docs: [https://developers.google.com/earth-engine/apidocs/ee-image](https://developers.google.com/earth-engine/apidocs/ee-image)
