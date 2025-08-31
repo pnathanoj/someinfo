@@ -37,8 +37,10 @@ callouts:
   links:
     title: important links
     color: red
-    
   note:
     title: note
+    color: blue
+  practice:
+    title: practice
     color: blue
 
