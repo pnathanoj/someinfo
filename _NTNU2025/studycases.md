@@ -8,6 +8,8 @@ layout: home
 The practical introduction to GEE is based on three study cases that introduce important aspects and functions of GEE. The study cases seek to cover various topics that can be interesting to undergraduate and graduate students in ecology such as: identifying and extracting climate anomalies, tracking vegetation canopy status, modeling species distribution probability, and producing a land cover classification.
 
 
+# References
+
 *Case Study 1*
 
 Kang, Y., Kaplan, D. A., & Osland, M. J. (2025). Mangrove freeze resistance and resilience across a tropical-temperate transitional zone. Journal of Ecology, 113. [https://doi.org/10.1111/1365-2745.14440](https://doi.org/10.1111/1365-2745.14440)
