@@ -38,7 +38,6 @@ callouts:
     title: note
     color: blue
 
-callouts:
   links:
     title: important links
     color: orange
