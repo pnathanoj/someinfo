@@ -34,9 +34,11 @@ just_the_docs:
       # search_exclude: true
 
 callouts:
+  links:
+    title: links
+    color: red
+    
   note:
     title: note
     color: blue
-  links:
-    title: important links
-    color: red
+
