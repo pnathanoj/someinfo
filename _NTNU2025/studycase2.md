@@ -138,5 +138,6 @@ Finally, it is possible to visualize the distribution probability:
 Map.addLayer(imageClassified, {bands: 'probability', min: 0, max: 1}, 'Probability’);
 ```
 
+
 {: .note }
 Try with other species such as species 01 and species 25.
