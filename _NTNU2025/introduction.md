@@ -20,12 +20,12 @@ This half-day lecture is partly based on the week-long introduction to GEE deliv
 
 *Case Study 1*
 
-Kang, Y., Kaplan, D. A., & Osland, M. J. (2025). Mangrove freeze resistance and resilience across a tropical-temperate transitional zone. Journal of Ecology, 113, 94–111. [https://doi.org/10.1111/1365-2745.14440](https://doi.org/10.1111/1365-2745.14440)
+Kang, Y., Kaplan, D. A., & Osland, M. J. (2025). Mangrove freeze resistance and resilience across a tropical-temperate transitional zone. Journal of Ecology, 113. [https://doi.org/10.1111/1365-2745.14440](https://doi.org/10.1111/1365-2745.14440)
 
  
 *Case Study 2*
 
-Elith, J., Graham, C., Valavi, R., Abegg, M., Bruce, C., Ferrier, S., Ford, A. et al. (2020). Presence-Only and Presence-Absence Data for Comparing Species Distribution Modeling Methods. Biodiversity Informatics 15 (2): 69-80. [https://doi.org/10.17161/bi.v15i2.13384](https://doi.org/10.17161/bi.v15i2.13384)
+Elith, J., Graham, C., Valavi, R., Abegg, M., Bruce, C., Ferrier, S., Ford, A. et al. (2020). Presence-Only and Presence-Absence Data for Comparing Species Distribution Modeling Methods. Biodiversity Informatics 15. [https://doi.org/10.17161/bi.v15i2.13384](https://doi.org/10.17161/bi.v15i2.13384)
 
 Dataset: [https://osf.io/kwc4v/files/osfstorage](https://osf.io/kwc4v/files/osfstorage)
 
