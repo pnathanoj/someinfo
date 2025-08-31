@@ -3,29 +3,30 @@ title: Introduction to GEE
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Introduction to Google Earth Engine
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+The following sections are intended to support the short introduction to Google Earth Engine (GEE) delivered to the students of the Department of Life Sciences at NTNU (Fall 2025).
 
-More specifically, the created site:
+This half-day lecture is partly based on the week-long introduction to GEE delivered to the students of University of Parakou in Spring 2025 as part of the [OBSYDYA project](https://www.obsydya.org/).
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+### Important links
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+Code Editor: [https://code.earthengine.google.com/](https://code.earthengine.google.com/) 
+GEE Data Catalog: [developers.google.com/earth-engine/datasets/catalog](developers.google.com/earth-engine/datasets/catalog)
+API Docs: [https://developers.google.com/earth-engine/apidocs/ee-image](https://developers.google.com/earth-engine/apidocs/ee-image)
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+*Case Study 1*
+Kang, Y., Kaplan, D. A., & Osland, M. J. (2025). Mangrove freeze resistance and resilience across a tropical-temperate transitional zone. Journal of Ecology, 113, 94–111. [https://doi.org/10.1111/1365-2745.14440](https://doi.org/10.1111/1365-2745.14440 )
+ 
+*Case Study 2*
+Elith, J., Graham, C., Valavi, R., Abegg, M., Bruce, C., Ferrier, S., Ford, A. et al. (2020). Presence-Only and Presence-Absence Data for Comparing Species Distribution Modeling Methods. Biodiversity Informatics 15 (2): 69-80. [https://doi.org/10.17161/bi.v15i2.13384](https://doi.org/10.17161/bi.v15i2.13384)
 
-To get started with creating a site, simply:
+Dataset: [https://osf.io/kwc4v/files/osfstorage](https://osf.io/kwc4v/files/osfstorage)
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+*Case Study 3*
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
 
 ----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
 [GitHub Pages]: https://docs.github.com/en/pages
