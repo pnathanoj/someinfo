@@ -1,6 +1,6 @@
 ---
 title: 1 Coldwave and mangroves
-parent: Study Cases
+parent: Case Studies
 layout: home
 nav_order: 1
 ---
