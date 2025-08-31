@@ -1,5 +1,5 @@
 ---
-title: Study Case 3
+title: Supervised land cover classification
 parent: Study Cases
 layout: home
 nav_order: 3
