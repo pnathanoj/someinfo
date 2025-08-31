@@ -1,6 +1,6 @@
 ---
 title: Study Case 1
-parent: Introduction to GEE
+parent: Study Cases
 layout: home
 nav_order: 1
 ---
