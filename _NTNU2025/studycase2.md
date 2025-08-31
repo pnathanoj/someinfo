@@ -74,6 +74,10 @@ var trainingData = ee.FeatureCollection(speciesPA);
 
 Several parameters affect species distributions such as climate, topography, barriers, or the presence of other organisms such as predators or humans.
 
+{: .note }
+What datasets can you find in Earth Engine Catalog?
+
+
 To inform on climate characteristics, we use the [Worldclim BIO dataset](https://developers.google.com/earth-engine/datasets/catalog/WORLDCLIM_V1_BIO). The dataset includes several bands refering to different parameters such as Annual mean temperature (``bio01``), annual precipitation  (``bio12``), or the precipitation measured for the driest month  (``bio14``). The page of the dataset provides the units and a **scale** that need to be applied to the band to obtain the actual value. Here, the band ``bio01`` has a scale of 0.1.
 
 ```js
