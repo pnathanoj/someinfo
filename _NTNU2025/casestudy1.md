@@ -29,6 +29,7 @@ As shown in the *Table Schema* tab of the dataset, it is possible to identify al
 var FAOGAULL1 = ee.FeatureCollection('FAO/GAUL/2015/level1')
   .filter(ee.Filter.eq('ADM0_NAME','United States of America'));
 ```
+![Reducers](https://pnathanoj.github.io/someinfo/NTNU2025/filter.png)
 
 Kang et al. (2025) used the PRISM daily dataset to identify minimum temperatures over the study period. [This dataset is conveniently available in Earth Engine catalog](https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81d). The *Bands* tab of the dataset shows that each daily Image has multiple bands: ``ppt`` for total daily precipitation (in mm), ``tmin`` for minimum daily temperature, etc. The spatial resolution is 4638.3 m and it is produced daily (1 Day). We import the ImageCollection using ``ee.ImageCollection()`` as a new variable ``PRISM_Temp`` and we use a filter, ``ee.Filter.date()`` to filter all Images produced for dates between ``2022-11-01`` and ``2023-03-31``. Finally, we use the ``select()`` function that allows to select a subset of bands from all Images.
 
