@@ -6,7 +6,7 @@ nav_order: 2
 
 # Three case studies
 
-The practical introduction to GEE is based on three case studies that introduce important aspects and functions of GEE. The case studies seek to cover various topics that can be interesting to undergraduate and graduate students in ecology such as: identifying and extracting climate anomalies, tracking vegetation canopy status, modeling species distribution probability, and producing a land cover classification.
+The practical introduction to GEE is based on three case studies that highlight important aspects and functions of the platform. These case studies cover various topics of interest to undergraduate and graduate students in ecology, including identifying and extracting climate anomalies, tracking vegetation canopy status, modeling species distribution probabilities, and producing land cover classifications.
 
 
 ### References
