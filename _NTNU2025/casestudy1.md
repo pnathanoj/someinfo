@@ -51,7 +51,7 @@ print('Temp_min:', Temp_min);
 ```
 <img src="{{site.baseurl | prepend: site.url}}_NTNU2025/reducer.png" alt="Reducers" />
 
-![REDUCERS](/someinfo/_NTNU2025/reducer.png)
+![REDUCERS](pnathanoj/someinfo/_NTNU2025/reducer.png)
 
 ### Visualization
 
