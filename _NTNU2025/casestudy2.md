@@ -94,6 +94,8 @@ var driestMonthPrecipitation = worldclim.select('bio14');
 var temperatureSeasonality = worldclim.select('bio04').multiply(0.01);
 ```
 
+![Selectmultiply](https://pnathanoj.github.io/someinfo/NTNU2025/selectmultiply.png)
+
 To inform on elevation, we use the digital elevation model (DEM) from [CGIAR, based on the SRTM](https://developers.google.com/earth-engine/datasets/catalog/CGIAR_SRTM90_V4).
 
 ```js
