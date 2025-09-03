@@ -79,7 +79,11 @@ Map.addLayer(Temp_min, TVis, 'Min temperature gradient', false);
 {: .note }
 Why do the colors not exactly match those in Kang et al. (2025)?
 
-However, the displayed Image does not exactly match Kang et al. (2025) figure 2. In fact, that figure was based on categorized minimum temperatures (*e.g.*, -6.5 and -6.31 fall into the same category, -0.3 and -0.9 fall into another category), whereas the displayed Image uses continuous temperature values between -7 and 0 (*e.g.*, -6.5 and -6.31 are shown with different colors). To obtain a visualization similar to Kang et al. (2025), we simply need to convert decimal values (*e.g.*, -6.5 and -6.31) to integer values (*e.g., -6 and -6). This is carried out using the ``int()`` function. Note that it is not necessary to create a new variable and that this conversion can be applied directly within ``Map.addLayer()``.
+However, the displayed Image does not exactly match Kang et al. (2025) figure 2. In fact, that figure was based on categorized minimum temperatures (*e.g.*, -6.5 and -6.31 fall into the same category, -0.3 and -0.9 fall into another category), whereas the displayed Image uses continuous temperature values between -7 and 0 (*e.g.*, -6.5 and -6.31 are shown with different colors). 
+
+![](gradient.png)
+
+To obtain a visualization similar to Kang et al. (2025), we simply need to convert decimal values (*e.g.*, -6.5 and -6.31) to integer values (*e.g., -6 and -6). This is carried out using the ``int()`` function. Note that it is not necessary to create a new variable and that this conversion can be applied directly within ``Map.addLayer()``.
 
 
 ```js
