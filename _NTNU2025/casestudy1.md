@@ -91,6 +91,8 @@ To obtain a visualization similar to Kang et al. (2025), we simply need to conve
 Map.addLayer(Temp_min.int(), TVis, 'Min temperature categories', false);
 ```
 
+![Reducers](https://pnathanoj.github.io/someinfo/NTNU2025/minimumtemperature.png)
+
 {: .note }
 Try other reducers such as max and mean.
 
