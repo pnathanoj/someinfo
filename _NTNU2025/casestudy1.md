@@ -49,18 +49,8 @@ var Temp_min = PRISM_Temp.reduce(ee.Reducer.min());
 
 print('Temp_min:', Temp_min);
 ```
-<img src="https://github.com/pnathanoj/someinfo/blob/68b3eba80e18b023445f1f228839d6a91711f0f7/_NTNU2025/reducer.png" alt="Reducershtml" />
-<img src="https://pnathanoj.github.io/photo/photo2.jpg" alt="Reducershtml1" />
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S1574954124X00114-cov150h.gif" alt="Reducershtml2" />
 
-![Reducersmd](../_NTNU2025/reducer.png)
-![Reducersmd2](/_NTNU2025/reducer.png)
-
-![Reducersmd3](_NTNU2025/reducer.png)
-![Reducersmd4](/reducer.png)
-![Reducersmd5](reducer.png)
-![Reducersmd6](https://pnathanoj.github.io/photo/photo2.jpg)
-![Reducersmd7](https://ars.els-cdn.com/content/image/1-s2.0-S1574954124X00114-cov150h.gif)
+![Reducers](https://pnathanoj.github.io/someinfo/NTNU2025/reducer.png)
 
 
 ### Visualization
@@ -92,7 +82,7 @@ Why do the colors not exactly match those in Kang et al. (2025)?
 
 However, the displayed Image does not exactly match Kang et al. (2025) figure 2. In fact, that figure was based on categorized minimum temperatures (*e.g.*, -6.5 and -6.31 fall into the same category, -0.3 and -0.9 fall into another category), whereas the displayed Image uses continuous temperature values between -7 and 0 (*e.g.*, -6.5 and -6.31 are shown with different colors). 
 
-![](../_NTNU2025/gradient.png)
+![Reducers](https://pnathanoj.github.io/someinfo/NTNU2025/gradient.png)
 
 To obtain a visualization similar to Kang et al. (2025), we simply need to convert decimal values (*e.g.*, -6.5 and -6.31) to integer values (*e.g., -6 and -6). This is carried out using the ``int()`` function. Note that it is not necessary to create a new variable and that this conversion can be applied directly within ``Map.addLayer()``.
 
