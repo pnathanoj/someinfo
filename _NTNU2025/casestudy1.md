@@ -59,6 +59,9 @@ print('Temp_min:', Temp_min);
 ![Reducersmd3](_NTNU2025/reducer.png)
 ![Reducersmd4](/reducer.png)
 ![Reducersmd5](reducer.png)
+![Reducersmd6](https://pnathanoj.github.io/photo/photo2.jpg)
+![Reducersmd7](https://ars.els-cdn.com/content/image/1-s2.0-S1574954124X00114-cov150h.gif)
+
 
 ### Visualization
 
