@@ -13,6 +13,8 @@ nav_order: 2
 
 Information on species **presence-absence** (PA) is based on field observations that record whether a species is present or absent at a given location. The information is is typically derived from ground surveys or other methods, such as camera traps. This data generally include precise coordinates of the PA observation (spatial points) along with additional information such as species name, site characteristics, observer, and date of observation. 
 
+![SpeciesPA](https://pnathanoj.github.io/someinfo/NTNU2025/speciespa.png)
+
 In addition to PA data, there are datasets containing only presence information (presence only, PO). However the Maximum Entropy (Maxent) function used in GEE requires PA information to model a species distribution probabilities. Note that there are several discussions on the use of PA data such as in [Royle & Nichols (2003)](https://doi.org/10.1890/0012-9658(2003)084[0777:EAFRPA]2.0.CO;2), [Kent & Carmel (2011)](https://doi.org/10.1111/j.1472-4642.2011.00755.x), and [Brotons et al. (2004)](https://doi.org/10.1111/j.0906-7590.2004.03764.x), including in relation to Maxent ([Guillera-Arroita et al., 2014](https://doi.org/10.1111/2041-210X.12252)).
 
 ### Downloading PA data
