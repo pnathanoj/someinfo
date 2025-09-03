@@ -52,6 +52,11 @@ print('Temp_min:', Temp_min);
 <img src="https://github.com/pnathanoj/someinfo/blob/68b3eba80e18b023445f1f228839d6a91711f0f7/_NTNU2025/reducer.png" alt="Reducershtml" />
 
 ![Reducersmd](../_NTNU2025/reducer.png)
+![Reducersmd2](/_NTNU2025/reducer.png)
+
+![Reducersmd3](_NTNU2025/reducer.png)
+![Reducersmd4](/reducer.png)
+![Reducersmd5](reducer.png)
 
 ### Visualization
 
