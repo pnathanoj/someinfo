@@ -66,7 +66,7 @@ A color palette should be created before displaying the Image ``Temp_min``. The 
 var TVis = {
   min: -7,
   max: 0,
-  palette: ['#1475B9', '#6E9ABD', '#AABEBD', '#E2E9BF’,  '#FFE3A4', '#FFA672', '#FE6F47', '#F72B22'],
+  palette: ['#1475B9', '#6E9ABD', '#AABEBD', '#E2E9BF', '#FFE3A4', '#FFA672', '#FE6F47', '#F72B22'],
 };
 ```
 
