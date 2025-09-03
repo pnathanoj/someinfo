@@ -50,6 +50,8 @@ var Temp_min = PRISM_Temp.reduce(ee.Reducer.min());
 print('Temp_min:', Temp_min);
 ```
 
+![](reducer.png)
+
 ### Visualization
 
 To visualize the resulting Image, we set the map panel to automatically center on a coordinate in the southeastern USA with a zoom level of 7 in order to see the entire state of Florida. This is done using the ``Map.setCenter()`` function, which takes three arguments: longitude, latitude, and zoom level.
