@@ -49,9 +49,9 @@ var Temp_min = PRISM_Temp.reduce(ee.Reducer.min());
 
 print('Temp_min:', Temp_min);
 ```
-<img src="https://github.com/pnathanoj/someinfo/blob/main/_NTNU2025/reducer.png" alt="Reducers" />
+<img src="https://github.com/pnathanoj/someinfo/blob/main/_NTNU2025/reducer.png" alt="Reducershtml" />
 
-![REDUCERS](../_NTNU2025/reducer.png)
+![Reducersmd](../_NTNU2025/reducer.png)
 
 ### Visualization
 
