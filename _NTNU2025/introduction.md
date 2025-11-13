@@ -17,6 +17,39 @@ This half-day lecture is partly based on the week-long introduction to GEE deliv
 > 
 > API Docs: [https://developers.google.com/earth-engine/apidocs/ee-image](https://developers.google.com/earth-engine/apidocs/ee-image)
 
+# Lists, Arrays
+
+```js
+var a = ee.Number(10);
+var b = ee.Number(20);
+var c = ee.Number(530);
+var List1 = ee.List([a, b, b, a, c]);
+var Array1 = ee.Array([a, b, b, a, c]);
+
+print(List1); print(Array1);
+```
+
+
+```js
+var List2 = ee.List([[a, b, b, a, c], [a, c, c, c, a]]);
+var Array2 = ee.Array([[a, b, b, a, c], [a, c, c, c, a]]);
+
+print(List2); print(Array2);
+```
+
+```js
+var List2 = ee.List([[a, b, b, a, c], [a, c, c]]);
+var Array2 = ee.Array([[a, b, b, a, c], [a, c, c]]);
+
+print(List2); print(Array2);
+```
+
+```js
+var Array2 = ee.Array([[a, b, b, a, c], [a, c, c, c, a]]);
+var Arraytf = Array2.gte([[1, 2, 3, 11, 40],[10, 15, 45, 0, 9]]);
+
+print(Arraytf);
+```
 
 
 ----
