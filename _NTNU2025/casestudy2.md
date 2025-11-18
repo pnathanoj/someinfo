@@ -21,7 +21,7 @@ In addition to PA data, there are datasets containing only presence information 
 
 This study case is based on a dataset provided by [Elith et al. (2020)](https://doi.org/10.17161/bi.v15i2.13384) on the distribution of 30 plant species across northern South America. The dataset can be downloaded at:
 
-[https://osf.io/kwc4v/files/osfstorage](https://osf.io/kwc4v/files/osfstorage) > data > Records > test_pa > SAtest_pa.csv
+[https://osf.io/kwc4v/files](https://osf.io/kwc4v/files) > data > Records > test_pa > SAtest_pa.csv
 
 ### File structure
 
