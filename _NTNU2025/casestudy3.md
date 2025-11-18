@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 
-
+### Importing Landsat data and creating sampling points
 ```js
 var landsat = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
    .filterBounds(study_site)
@@ -27,14 +27,14 @@ var landsat_vis = {
 ```js
 Map.centerObject(study_site, 12);
 Map.addLayer(landsat, landsat_vis, 'L8 image');
-Map.addLayer(study_site);
 ```
 
 ```js
-var training_points = ee.FeatureCollection([WATER, BUILTUP, FARMS, NATURALVEG, BARESOILSAND]).flatten();
+var training_points = ee.FeatureCollection([WATER, BUILTUP, FARMS, NATURALVEG, BARESOIL]).flatten();
 print(training_points);
 ```
 
+### Extraction of spectral information at each sampling point
 ```js
 var bands = ['SR_B1', 'SR_B2', 'SR_B3', 'SR_B4', 'SR_B5', 'SR_B6', 'SR_B7','ST_B10'];
 ```
@@ -46,9 +46,11 @@ var sample = landsat.select(bands)
       properties: ['type'],
       scale: 30
 });
+
 print(sample);
 ```
 
+### Training the model to classify the map
 ```js
 var classifier = ee.Classifier.smileCart().train({
    features: sample,
@@ -64,9 +66,10 @@ var classification_vis = {
    max: 4,
    palette: ['green', 'red', 'blue', 'yellow', 'pink']
 };
-Map.addLayer(classification, classification_vis, 'classificationsupervCART');
+Map.addLayer(classification, classification_vis, 'CARTsupervisedclassification');
 ```
 
+### Assessing the accuracy of the classification
 ```js
 var traintest = sample.randomColumn();
 var train_group = traintest.filter(ee.Filter.lt('random', 0.8));
@@ -84,12 +87,12 @@ var classifier2 = ee.Classifier.smileCart().train({
 ```
 
 ```js
-var confusion_matrix =
-test_group.classify(classifier2)
+var confusion_matrix = test_group.classify(classifier2)
    .errorMatrix({
       actual: 'type',
       predicted: 'classification'
 });
+
 print('Confusion Matrix:', confusion_matrix);
 print('Accuracy:', confusion_matrix.accuracy());
 print('Producer Accuracy:', confusion_matrix.producersAccuracy());
@@ -97,12 +100,34 @@ print('User Accuracy:', confusion_matrix.consumersAccuracy());
 print('Kappa:', confusion_matrix.kappa());
 ```
 
+### Counting the number of pixels in each Land Cover class
 ```js
-var L8filtre = ee.ImageCollection("NASA/HLS/HLSL30/v002")
-   .filterDate('2020-01-01', '2024-01-01')
+var classification2 = ee.Image(1).addBands(classification);
+
+var vegcover = classification2.reduceRegion(
+  ee.Reducer.sum().group({groupField: 1}), study_site, 30);
+
+print(vegcover, 'vegcover');
+```
+
+```js
+var pixelcount_class = ui.Chart.image.byClass({
+  image: classification2,
+  classBand: 'classification',
+  region: study_site,
+  scale: 30,
+  reducer: ee.Reducer.count()
+});
+print(pixelcount_class);
+```
+
+### 10-years trend in NDVI in crops
+```js
+var HLSL_1525 = ee.ImageCollection('NASA/HLS/HLSL30/v002')
+   .filterDate('2015-01-01', '2025-01-01')
    .filterBounds(study_site)
    .select(['B4', 'B5'])
-   .filter(ee.Filter.lt('CLOUD_COVERAGE', 30));
+   .filter(ee.Filter.lt('CLOUD_COVERAGE', 50));
 ```
 
 ```js
@@ -115,19 +140,33 @@ var farmsfun = function(image) {
 ```
 
 ```js
-var L8filtre_mask = L8filtre.map(farmsfun);
-print(L8filtre_mask, 'L8filtre_mask');
+var HLSL_1525_NDVI = HLSL_1525.map(farmsfun);
+print(HLSL_1525_NDVI, 'HLSL_1525_NDVI');
 ```
 
 ```js
 var graph = ui.Chart.image.series({
-   imageCollection: L8filtre_mask,
+   imageCollection: HLSL_1525_NDVI.select('ndvi'),
    region: study_site,
-   reducer: ee.Reducer.first(),
+   reducer: ee.Reducer.median(),
    scale: 30
 });
 print(graph);
 ```
+
+```js
+var graph_trend = ui.Chart.image.series({
+   imageCollection: HLSL_1525_NDVI.select('ndvi'),
+   region: study_site,
+   reducer: ee.Reducer.median(),
+   scale: 30
+}).setOptions({
+   trendlines: {0: {type: 'linear', color: 'red',
+   visibleInLegend: true}}
+});
+print(graph_trend);
+```
+
 
 ----
 
