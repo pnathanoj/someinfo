@@ -31,10 +31,10 @@ var FAOGAULL1 = ee.FeatureCollection('FAO/GAUL/2015/level1')
 ```
 ![Reducers](https://pnathanoj.github.io/someinfo/NTNU2025/filter.png)
 
-Kang et al. (2025) used the PRISM daily dataset to identify minimum temperatures over the study period. [This dataset is conveniently available in Earth Engine catalog](https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81d). The *Bands* tab of the dataset shows that each daily Image has multiple bands: ``ppt`` for total daily precipitation (in mm), ``tmin`` for minimum daily temperature, etc. The spatial resolution is 4638.3 m and it is produced daily (1 Day). We import the ImageCollection using ``ee.ImageCollection()`` as a new variable ``PRISM_Temp`` and we use a filter, ``ee.Filter.date()`` to filter all Images produced for dates between ``2022-11-01`` and ``2023-03-31``. Finally, we use the ``select()`` function that allows to select a subset of bands from all Images.
+Kang et al. (2025) used the PRISM daily dataset to identify minimum temperatures over the study period. [This dataset is conveniently available in Earth Engine catalog](https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_ANd). The *Bands* tab of the dataset shows that each daily Image has multiple bands: ``ppt`` for total daily precipitation (in mm), ``tmin`` for minimum daily temperature, etc. The spatial resolution is 4638.3 m and it is produced daily (1 Day). We import the ImageCollection using ``ee.ImageCollection()`` as a new variable ``PRISM_Temp`` and we use a filter, ``ee.Filter.date()`` to filter all Images produced for dates between ``2022-11-01`` and ``2023-03-31``. Finally, we use the ``select()`` function that allows to select a subset of bands from all Images.
 
 ```js
-var PRISM_Temp = ee.ImageCollection('OREGONSTATE/PRISM/AN81d')
+var PRISM_Temp = ee.ImageCollection('OREGONSTATE/PRISM/ANd')
   .filter(ee.Filter.date('2022-11-01', '2023-03-31'))
   .select('tmin');
 
