@@ -6,7 +6,7 @@ nav_order: 1
 
 # Introduction to Google Earth Engine
 
-The following sections are intended to support the short introduction to Google Earth Engine (GEE) delivered to students of the Department of Life Sciences at NTNU (Fall 2025).
+The following sections are intended to support the short introduction to Google Earth Engine (GEE) delivered to students of the Department of Life Sciences at NTNU (Fall 2025 and Summer 2026).
 
 This half-day lecture is partly based on the week-long introduction to GEE delivered to the students at University of Parakou in Spring 2025 as part of the [OBSYDYA project](https://www.obsydya.org/).
 
